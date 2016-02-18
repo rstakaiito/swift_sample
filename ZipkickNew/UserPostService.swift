@@ -11,7 +11,6 @@ import Foundation
 class UserPostSerivce{
     
     
-    
     static func getStats(userid :Int) -> NSDictionary{
         let usetStats = ["followers":"1.2K","posts":"320","photos":"512"]
         // This Dictionaries load from server or cache
