@@ -18,6 +18,8 @@ class UserProfileViewController: UIViewController, UICollectionViewDelegateFlowL
     @IBOutlet var lblFollowers: UILabel!
     @IBOutlet var lblPosts: UILabel!
     @IBOutlet var lblPhotos: UILabel!
+    @IBOutlet var clView: UICollectionView!
+    @IBOutlet var mainScrv: UIScrollView!
     
     // MARK: - Services
     
@@ -43,7 +45,7 @@ class UserProfileViewController: UIViewController, UICollectionViewDelegateFlowL
         super.viewDidLoad()
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         screenWidth = screenSize.width
-        getUserStats()
+        getUserStats() 
     }
 
     override func didReceiveMemoryWarning() {
