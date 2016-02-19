@@ -19,7 +19,7 @@ class UserPostSerivce{
     
     static func getBlogPosts(userid :Int, total:Int)->NSMutableArray{
         var data = NSMutableArray()
-        for _ in 0...total{
+        for index in 0...total{
             data.addObject([
                 "imgavatar":"sample_postowner.png",
                 "imgpost":"sample_restaurant.png",

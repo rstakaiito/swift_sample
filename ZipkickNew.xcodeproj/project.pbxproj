@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6035CBDF1C75D2F80042CFD5 /* Influencer Profile posts.png in Resources */ = {isa = PBXBuildFile; fileRef = 6035CBDE1C75D2F80042CFD5 /* Influencer Profile posts.png */; };
 		6035CBE21C75D3B20042CFD5 /* sample_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 6035CBE11C75D3B20042CFD5 /* sample_cover.png */; };
 		6035CBE61C7648820042CFD5 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035CBE51C7648820042CFD5 /* UserProfileViewController.swift */; };
 		6035CBE81C764A070042CFD5 /* sample_restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6035CBE71C764A070042CFD5 /* sample_restaurant.png */; };
@@ -58,7 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6035CBDE1C75D2F80042CFD5 /* Influencer Profile posts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Influencer Profile posts.png"; sourceTree = "<group>"; };
 		6035CBE11C75D3B20042CFD5 /* sample_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_cover.png; sourceTree = "<group>"; };
 		6035CBE51C7648820042CFD5 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		6035CBE71C764A070042CFD5 /* sample_restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_restaurant.png; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				6035CBE01C75D3B20042CFD5 /* SampleData */,
-				6035CBDE1C75D2F80042CFD5 /* Influencer Profile posts.png */,
 				6054C5031C75BA4200CF8ED6 /* Tabbar */,
 			);
 			path = Images;
@@ -378,7 +375,6 @@
 				6035CBE81C764A070042CFD5 /* sample_restaurant.png in Resources */,
 				6054C4DF1C75B90900CF8ED6 /* LaunchScreen.storyboard in Resources */,
 				6054C4DC1C75B90900CF8ED6 /* Assets.xcassets in Resources */,
-				6035CBDF1C75D2F80042CFD5 /* Influencer Profile posts.png in Resources */,
 				6054C52C1C75C61800CF8ED6 /* tbicon_activity.png in Resources */,
 				6035CBFB1C765A050042CFD5 /* sample_postowner.png in Resources */,
 				6054C51A1C75BB6300CF8ED6 /* tbicon_around@2x.png in Resources */,

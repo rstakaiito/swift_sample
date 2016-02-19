@@ -11,6 +11,7 @@ import UIKit
 
 class UserProfileViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
+    private var screenWidth:CGFloat = 0;
     private let userid = 1;
     private var arrPosts:NSMutableArray = [];
     
@@ -40,6 +41,8 @@ class UserProfileViewController: UIViewController, UICollectionViewDelegateFlowL
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        screenWidth = screenSize.width
         getUserStats()
     }
 
@@ -92,7 +95,7 @@ class UserProfileViewController: UIViewController, UICollectionViewDelegateFlowL
                 size.height += 10
                 return size
             }*/
-            return CGSize(width: 145, height: 178)
+            return CGSize(width: screenWidth/2 - 15, height: 178)
     }
     
     func collectionView(collectionView: UICollectionView,
